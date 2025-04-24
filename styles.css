@@ -127,6 +127,9 @@ header nav a:hover {
 }
 
 .produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid #ccc;
     padding: 15px;
     text-align: center;
@@ -145,6 +148,7 @@ header nav a:hover {
 }
 
 .produto button {
+    margin-top: auto; /* Garante que o botão fique na parte inferior */
     background-color: #cb936d;
     color: #fff;
     border: none;
